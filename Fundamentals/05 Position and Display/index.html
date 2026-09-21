@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title scroll>position and display</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <h1 class="mb-3">Position</h1>
+    <div class="relative w-1/2 h-40 bg-green-200">
+      <p>Relative</p>
+      <div class="absolute bottom-0 right-0 bg-teal-500">
+        <p>absolute</p>
+      </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-200 mt-5">
+      <p>Relative</p>
+      <div class="absolute left-0 top-0 bg-teal-500">
+        <p>absolute</p>
+      </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-200 mt-5">
+      <p>Relative</p>
+      <div class="absolute top-0 right-0 bg-teal-500">
+        <p>absolute</p>
+      </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-200 mt-5">
+      <p>Relative</p>
+      <div class="absolute bottom-0 left-0 bg-teal-500">
+        <p>absolute</p>
+      </div>
+    </div>
+
+    <h1 class="mb-3">Display</h1>
+    <div class="bg-indigo-100 p-10 mb-10 w-[600px]">
+      <span class="inline"
+        >1. this is display inline and will wrap normally</span
+      >
+      <span class="inline-block bg-orange-200 w-[200px] h-[200px]"
+        >2. This is display inline-block and will not extend beyond its
+        parend</span
+      >
+
+      <span class="block"
+        >3. This is display block and will move to its own line</span
+      >
+
+      <span class="hidden">
+        This is display none and will not display at all.
+      </span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Container</title>
+    <style>
+      body {
+        padding: 5rem;
+        background-color: aliceblue;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <h3>1. Margin</h3>
+    <div class="m-4 bg-yellow-100">Margin All Around</div>
+
+    <div class="mx-4 bg-yellow-200">Margin from x axis</div>
+    <div class="my-4 bg-yellow-300">Margin from y axis</div>
+    <div class="mt-6 bg-yellow-400">Margin top</div>
+    <div class="mb-6 bg-yellow-500">Margin bottom</div>
+    <div class="mr-4 bg-yellow-600">Margin right</div>
+    <div class="ml-2 bg-yellow-700">Margin left</div>
+
+    <!-- Arbitrary Spacing -->
+
+    <div class="m-[20px] bg-slate-700">
+      2. (Arbitrary Spacing)Margin all Around
+    </div>
+
+    <h3>3. Padding</h3>
+    <div class="p-4 bg-lime-200">Padding all around</div>
+    <div class="px-4 bg-lime-300">Padding X axis</div>
+    <div class="py-4 bg-lime-400">Padding Y axis</div>
+    <div class="pt-6 bg-lime-500">Padding Top</div>
+    <div class="pb-6 bg-lime-600">Padding Bottom</div>
+    <div class="pl-4 bg-lime-700">Padding Left</div>
+    <div class="pr-[200px] bg-lime-800">Padding right</div>
+
+    <!-- https://tailwindcss.com/docs/space -->
+    <!-- Space Between X -->
+    <h3>Space Between X</h3>
+    <div class="flex space-x-4">
+      <div class="p3 bg-teal-100">01</div>
+      <div class="p3 bg-teal-200">02</div>
+      <div class="p3 bg-teal-300">03</div>
+    </div>
+
+    <h3>Space Between Y</h3>
+    <div class="flex flex-col space-y-2">
+      <div class="p3 bg-teal-100">01</div>
+      <div class="p3 bg-teal-200">02</div>
+      <div class="p3 bg-teal-300">03</div>
+    </div>
+  </body>
+</html>
