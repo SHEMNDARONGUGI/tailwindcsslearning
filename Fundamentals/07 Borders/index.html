@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Borders</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="border-2 border-green-100 m-10">
+      <div class="w-96 m-3 p-5 border">Border All Around</div>
+      <div class="w-96 m-3 p-5 border border-2">Border Width</div>
+      <div class="w-96 m-3 p-5 border-2 border-teal-800">Colored Border</div>
+      <div class="w-96 m-3 p-5 border-x-2 border-teal-800">
+        Border applied to x-axis
+      </div>
+      <div class="w-96 m-3 p-5 border-y-2 border-teal-800">
+        Border applied to y-axis
+      </div>
+      <div class="w-96 m-3 p-5 border-r-2 border-teal-800">Border right</div>
+      <div class="w-96 m-3 p-5 border-l-2 border-teal-800">Border left</div>
+      <div class="w-96 m-3 p-5 border-t-2 border-teal-800">Border top</div>
+
+      <div class="w-96 m-3 p-5 border-b-2 border-teal-800">Border bottom</div>
+    </div>
+
+    <!-- Border-radius -->
+
+    <div class="border-2 border-green-100 m-10">
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded">Border Rounded</div>
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded-lg">Border rounded lg</div>
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded-xl">Border rounded xl</div>
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded-2xl">Border rounded 2xl</div>
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded-3xl">Border rounded 3xl</div>
+      <div class="w-96 m-3 p-5 bg-teal-200 rounded-full">
+        Border Rounded full
+      </div>
+    </div>
+
+    <!-- Border radius for specific sides -->
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-t-xl">Border top rounded</div>
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-b-xl">
+      Border bottom rounded
+    </div>
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-l-xl">Border left rounded</div>
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-r-xl">
+      Border right rounded
+    </div>
+  </body>
+</html>
