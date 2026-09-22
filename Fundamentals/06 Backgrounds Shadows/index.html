@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background&Shadows</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- <h1>Providing image for the background</h1> -->
+    <!-- <div
+      class="h-screen w-full bg-blue-500 bg-cover bg-no-repeat bg-center"
+      style="
+        background-image: url(https://images.unsplash.com/photo-1684179029756-eb5feb028b4a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRlY2glMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+      "
+    ></div> -->
+
+    <div class="flex flex-wrap">
+      <div class="w-[400px] mt-10 ml-4 p-3 shadow-md">Shadow Medium</div>
+      <div class="w-[400px] mt-10 ml-4 p-3 shadow-lg">Shadow large</div>
+      <div class="w-[400px] mt-10 ml-4 p-3 shadow-xl">Shadow xl</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-2xl">Shadow 2xl</div>
+
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-inner">Inner Shadow</div>
+
+      <!-- Color/Shadow -->
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg shadow-teal-400/30">
+        Shadow Color with opacity
+      </div>
+    </div>
+    <div
+      class="h-40 bg-gradient-to-r from-teal-100 to-green-500 m-10 text-center p-40"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, et non
+      illo molestiae pariatur at libero dolor, exercitationem reiciendis in
+      tenetur. Et blanditiis, impedit ullam numquam ipsam pariatur. Minus, id?
+    </div>
+
+    <div
+      class="h-40 bg-gradient-to-r from-red-100 via-[crimson]-200 to-red-400 mt-10 text-center p-40"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium eaque
+      exercitationem tempora at harum quae ducimus. Autem quidem vero tenetur
+      ipsam, fugiat alias laborum dignissimos numquam omnis recusandae, vel
+      neque!
+    </div>
+  </body>
+</html>
