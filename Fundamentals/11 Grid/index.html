@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="p-10">
+    <div class="w-full grid grid-cols-3 grid-rows-4 gap-4">
+      <div class="p-10 bg-green-200">01</div>
+      <div class="p-10 bg-green-200">02</div>
+      <div class="p-10 bg-green-200">03</div>
+      <div class="p-10 bg-green-200">04</div>
+      <div class="p-10 bg-green-200">05</div>
+      <div class="p-10 bg-green-200">06</div>
+      <div class="p-10 bg-green-200">07</div>
+      <div class="p-10 bg-green-200">08</div>
+      <div class="p-10 bg-green-200">09</div>
+    </div>
+
+    <!-- col and row span -->
+    <div class="w-full grid grid-cols-3 gap-4">
+      <div class="p-10 bg-green-200 col-span-2 row-span-2">01</div>
+      <div class="p-10 bg-green-200">02</div>
+      <div class="p-10 bg-green-200">03</div>
+      <div class="p-10 bg-green-200">04</div>
+      <div class="p-10 bg-green-200">05</div>
+      <div class="p-10 bg-green-200">06</div>
+
+      <br />
+      <br />
+
+      <div class="p-10 bg-teal-200 col-span-3">07</div>
+      <div class="p-10 bg-teal-200">07</div>
+      <div class="p-10 bg-teal-200 col-span-2">07</div>
+    </div>
+  </body>
+</html>

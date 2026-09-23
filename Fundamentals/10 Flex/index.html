@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="border m-10">
+      <ul class="flex">
+        <li class="bg-teal-200 p-5 m-5">01</li>
+        <li class="bg-teal-200 p-5 m-5">02</li>
+        <li class="bg-teal-200 p-5 m-5">03</li>
+        <li class="bg-teal-200 p-5 m-5">04</li>
+        <li class="bg-teal-200 p-5 m-5">05</li>
+      </ul>
+    </div>
+
+    <!-- FlexDirection -->
+
+    <div class="border m-10">
+      <ul class="flex flex-col">
+        <li class="bg-teal-200 p-5 m-5">01</li>
+        <li class="bg-teal-200 p-5 m-5">02</li>
+        <li class="bg-teal-200 p-5 m-5">03</li>
+        <li class="bg-teal-200 p-5 m-5">04</li>
+        <li class="bg-teal-200 p-5 m-5">05</li>
+      </ul>
+    </div>
+
+    <!-- Justify -->
+
+    <div class="border m-10">
+      <ul class="flex justify-between">
+        <li class="bg-teal-200 p-5 m-5">01</li>
+        <li class="bg-teal-200 p-5 m-5">02</li>
+        <li class="bg-teal-200 p-5 m-5">03</li>
+        <li class="bg-teal-200 p-5 m-5">04</li>
+        <li class="bg-teal-200 p-5 m-5">05</li>
+      </ul>
+    </div>
+
+    <!-- Order -->
+    <div class="border m-10">
+      <ul class="flex w-full">
+        <li class="p-5 m-3 w-64 bg-teal-500 flex-none">01</li>
+        <li class="p-5 m-3 w-64 bg-teal-500 flex-initial">02</li>
+        <li class="p-5 m-3 w-64 bg-teal-500 flex-auto">03</li>
+        <li class="p-5 m-3 w-64 bg-teal-500 flex-1">04</li>
+        <li class="p-5 m-3 w-64 bg-teal-500">05</li>
+        <li class="p-5 m-3 w-64 bg-teal-500">06</li>
+        <li class="p-5 m-3 w-64 bg-teal-500">07</li>
+      </ul>
+    </div>
+
+    <!-- Grow and Shrink -->
+  </body>
+</html>

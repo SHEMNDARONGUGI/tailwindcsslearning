@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transformation Transitions & Animations</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="p-10">
+    <div class="mb-10 flex gap-4">
+      <button class="p-5 text-white bg-blue-500 hover:bg-blue-700 rounded-3xl">
+        Click Me
+      </button>
+
+      <button
+        class="p-5 text-white bg-blue-500 transition hover:bg-teal-950 hover:text-rose-400 duration-100 ease-in-out delay-200 rounded-3xl"
+      >
+        With Transition
+      </button>
+    </div>
+
+    <!-- Transition and transform -->
+    <button
+      class="p-5 text-white bg-blue-500 transition hover:bg-teal-950 hover:text-rose-400 duration-100 ease-in-out delay-200 rounded-3xl"
+    >
+      With Transition
+    </button>
+
+    <!-- Transformation -->
+    <button
+      class="p-5 ml-5 text-white bg-blue-500 transition ease-in-out delay-150 duration-1000 hover:-translate-y-5 hover:scale-110 hover:bg-teal-500 hover:rounded-2xl"
+    >
+      Transformation
+    </button>
+
+    <div class="flex justify-center">
+      <div class="p-20 ml-20 mt-20 w-20 bg-teal-200 animate-spin">Spin</div>
+      <div class="w-20 p-20 ml-20 mt-20 bg-teal-200 animate-ping rounded-3xl">
+        Ping
+      </div>
+
+      <div class="w-20 p-20 ml-20 mt-20 bg-teal-200 animate-pulse ">
+        Pulse
+    </div>
+
+    <div class="w-50 aspect-square rounded-full p-20 ml-20 mt-20 bg-teal-200 animate-bounce ">
+        Bounce
+    </div>
+  </body>
+</html>
