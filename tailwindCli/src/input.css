@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* @layer base {
+  a {
+    @apply text-teal-700 underline decoration-dotted;
+  }
+}
+
+@layer components {
+  .menu-components {
+    @apply text-white bg-indigo-500 p-3;
+  }
+} */
+
+@layer utilities {
+  .text-slate-400 {
+    color: #fff;
+    background: teal;
+  }
+}
